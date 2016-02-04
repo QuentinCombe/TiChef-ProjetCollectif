@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="TiChef" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logoTiChef" translatesAutoresizingMaskIntoConstraints="NO" id="eeb-bH-xBk">
+                                <rect key="frame" x="287" y="113" width="450" height="300"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="300" id="5Kn-Uw-eac"/>
+                                    <constraint firstAttribute="width" constant="450" id="Cgq-kq-qmM"/>
+                                    <constraint firstAttribute="width" constant="337" id="JHf-gI-Ogb"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="JHf-gI-Ogb"/>
+                                    </mask>
+                                </variation>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="y7C-Pp-my5">
+                                <rect key="frame" x="425" y="443" width="175" height="22"/>
+                                <color key="backgroundColor" red="0.83002806871365276" green="0.55524334055595925" blue="0.28700415588502287" alpha="1" colorSpace="calibratedRGB"/>
+                                <accessibility key="accessibilityConfiguration">
+                                    <accessibilityTraits key="traits" button="YES" image="YES"/>
+                                </accessibility>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="175" id="XNx-5r-WyB"/>
+                                </constraints>
+                                <state key="normal" title="Cuisiner" image="logoBoutonCuisiner">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="ORk-X9-QRv" kind="show" id="vzZ-Kv-Dlx"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fJ1-PM-1Z4">
+                                <rect key="frame" x="491" y="486" width="42" height="30"/>
+                                <state key="normal" title="zejfbk"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zcR-fA-U99">
+                                <rect key="frame" x="489" y="539" width="46" height="30"/>
+                                <state key="normal" title="Button"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="eeb-bH-xBk" secondAttribute="bottom" constant="295" id="GRQ-Zt-ofy"/>
+                            <constraint firstAttribute="trailing" secondItem="eeb-bH-xBk" secondAttribute="trailing" constant="131" id="IDx-1c-UO6"/>
+                            <constraint firstItem="y7C-Pp-my5" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="170" id="Qon-8C-3yD"/>
+                            <constraint firstItem="eeb-bH-xBk" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="93" id="TcR-0Q-67B"/>
+                            <constraint firstItem="eeb-bH-xBk" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Vbg-gy-WG3"/>
+                            <constraint firstItem="eeb-bH-xBk" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="131" id="j5e-ZY-Jj8"/>
+                            <constraint firstItem="y7C-Pp-my5" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="jGG-Aa-Sdv"/>
+                            <constraint firstItem="y7C-Pp-my5" firstAttribute="top" secondItem="eeb-bH-xBk" secondAttribute="bottom" constant="30" id="z3P-T0-mGg"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="IDx-1c-UO6"/>
+                                <exclude reference="j5e-ZY-Jj8"/>
+                                <exclude reference="Qon-8C-3yD"/>
+                                <exclude reference="GRQ-Zt-ofy"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPad"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-600" y="1021"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="gcD-Ax-xp1">
+            <objects>
+                <viewController id="ORk-X9-QRv" customClass="ViewController" customModule="TiChef" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Zpo-aA-QBn"/>
+                        <viewControllerLayoutGuide type="bottom" id="GsI-Gw-bLm"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="9PU-dA-u9z">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="QE8-ix-QHh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="598" y="1028"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="logoBoutonCuisiner" width="16" height="16"/>
+        <image name="logoTiChef" width="16" height="16"/>
+    </resources>
+    <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
+</document>

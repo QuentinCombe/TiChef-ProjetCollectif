@@ -1,0 +1,527 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		276ADA321C63570700B0E69D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 276ADA311C63570700B0E69D /* AppDelegate.swift */; };
+		276ADA341C63570700B0E69D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 276ADA331C63570700B0E69D /* ViewController.swift */; };
+		276ADA371C63570700B0E69D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 276ADA351C63570700B0E69D /* Main.storyboard */; };
+		276ADA3A1C63570700B0E69D /* TiChef.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 276ADA381C63570700B0E69D /* TiChef.xcdatamodeld */; };
+		276ADA3C1C63570700B0E69D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 276ADA3B1C63570700B0E69D /* Assets.xcassets */; };
+		276ADA3F1C63570700B0E69D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 276ADA3D1C63570700B0E69D /* LaunchScreen.storyboard */; };
+		276ADA4A1C63570700B0E69D /* TiChefTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 276ADA491C63570700B0E69D /* TiChefTests.swift */; };
+		276ADA551C63570700B0E69D /* TiChefUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 276ADA541C63570700B0E69D /* TiChefUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		276ADA461C63570700B0E69D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 276ADA261C63570600B0E69D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 276ADA2D1C63570700B0E69D;
+			remoteInfo = TiChef;
+		};
+		276ADA511C63570700B0E69D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 276ADA261C63570600B0E69D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 276ADA2D1C63570700B0E69D;
+			remoteInfo = TiChef;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		276ADA2E1C63570700B0E69D /* TiChef.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TiChef.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		276ADA311C63570700B0E69D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		276ADA331C63570700B0E69D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		276ADA361C63570700B0E69D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		276ADA391C63570700B0E69D /* TiChef.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TiChef.xcdatamodel; sourceTree = "<group>"; };
+		276ADA3B1C63570700B0E69D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		276ADA3E1C63570700B0E69D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		276ADA401C63570700B0E69D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		276ADA451C63570700B0E69D /* TiChefTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TiChefTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		276ADA491C63570700B0E69D /* TiChefTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TiChefTests.swift; sourceTree = "<group>"; };
+		276ADA4B1C63570700B0E69D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		276ADA501C63570700B0E69D /* TiChefUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TiChefUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		276ADA541C63570700B0E69D /* TiChefUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TiChefUITests.swift; sourceTree = "<group>"; };
+		276ADA561C63570700B0E69D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		276ADA2B1C63570700B0E69D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		276ADA421C63570700B0E69D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		276ADA4D1C63570700B0E69D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		276ADA251C63570600B0E69D = {
+			isa = PBXGroup;
+			children = (
+				276ADA301C63570700B0E69D /* TiChef */,
+				276ADA481C63570700B0E69D /* TiChefTests */,
+				276ADA531C63570700B0E69D /* TiChefUITests */,
+				276ADA2F1C63570700B0E69D /* Products */,
+			);
+			sourceTree = "<group>";
+			usesTabs = 0;
+		};
+		276ADA2F1C63570700B0E69D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				276ADA2E1C63570700B0E69D /* TiChef.app */,
+				276ADA451C63570700B0E69D /* TiChefTests.xctest */,
+				276ADA501C63570700B0E69D /* TiChefUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		276ADA301C63570700B0E69D /* TiChef */ = {
+			isa = PBXGroup;
+			children = (
+				276ADA311C63570700B0E69D /* AppDelegate.swift */,
+				276ADA331C63570700B0E69D /* ViewController.swift */,
+				276ADA351C63570700B0E69D /* Main.storyboard */,
+				276ADA3B1C63570700B0E69D /* Assets.xcassets */,
+				276ADA3D1C63570700B0E69D /* LaunchScreen.storyboard */,
+				276ADA401C63570700B0E69D /* Info.plist */,
+				276ADA381C63570700B0E69D /* TiChef.xcdatamodeld */,
+			);
+			path = TiChef;
+			sourceTree = "<group>";
+		};
+		276ADA481C63570700B0E69D /* TiChefTests */ = {
+			isa = PBXGroup;
+			children = (
+				276ADA491C63570700B0E69D /* TiChefTests.swift */,
+				276ADA4B1C63570700B0E69D /* Info.plist */,
+			);
+			path = TiChefTests;
+			sourceTree = "<group>";
+		};
+		276ADA531C63570700B0E69D /* TiChefUITests */ = {
+			isa = PBXGroup;
+			children = (
+				276ADA541C63570700B0E69D /* TiChefUITests.swift */,
+				276ADA561C63570700B0E69D /* Info.plist */,
+			);
+			path = TiChefUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		276ADA2D1C63570700B0E69D /* TiChef */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 276ADA591C63570700B0E69D /* Build configuration list for PBXNativeTarget "TiChef" */;
+			buildPhases = (
+				276ADA2A1C63570700B0E69D /* Sources */,
+				276ADA2B1C63570700B0E69D /* Frameworks */,
+				276ADA2C1C63570700B0E69D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TiChef;
+			productName = TiChef;
+			productReference = 276ADA2E1C63570700B0E69D /* TiChef.app */;
+			productType = "com.apple.product-type.application";
+		};
+		276ADA441C63570700B0E69D /* TiChefTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 276ADA5C1C63570700B0E69D /* Build configuration list for PBXNativeTarget "TiChefTests" */;
+			buildPhases = (
+				276ADA411C63570700B0E69D /* Sources */,
+				276ADA421C63570700B0E69D /* Frameworks */,
+				276ADA431C63570700B0E69D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				276ADA471C63570700B0E69D /* PBXTargetDependency */,
+			);
+			name = TiChefTests;
+			productName = TiChefTests;
+			productReference = 276ADA451C63570700B0E69D /* TiChefTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		276ADA4F1C63570700B0E69D /* TiChefUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 276ADA5F1C63570700B0E69D /* Build configuration list for PBXNativeTarget "TiChefUITests" */;
+			buildPhases = (
+				276ADA4C1C63570700B0E69D /* Sources */,
+				276ADA4D1C63570700B0E69D /* Frameworks */,
+				276ADA4E1C63570700B0E69D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				276ADA521C63570700B0E69D /* PBXTargetDependency */,
+			);
+			name = TiChefUITests;
+			productName = TiChefUITests;
+			productReference = 276ADA501C63570700B0E69D /* TiChefUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		276ADA261C63570600B0E69D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Dimitri Horde";
+				TargetAttributes = {
+					276ADA2D1C63570700B0E69D = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					276ADA441C63570700B0E69D = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 276ADA2D1C63570700B0E69D;
+					};
+					276ADA4F1C63570700B0E69D = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 276ADA2D1C63570700B0E69D;
+					};
+				};
+			};
+			buildConfigurationList = 276ADA291C63570600B0E69D /* Build configuration list for PBXProject "TiChef" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 276ADA251C63570600B0E69D;
+			productRefGroup = 276ADA2F1C63570700B0E69D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				276ADA2D1C63570700B0E69D /* TiChef */,
+				276ADA441C63570700B0E69D /* TiChefTests */,
+				276ADA4F1C63570700B0E69D /* TiChefUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		276ADA2C1C63570700B0E69D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				276ADA3F1C63570700B0E69D /* LaunchScreen.storyboard in Resources */,
+				276ADA3C1C63570700B0E69D /* Assets.xcassets in Resources */,
+				276ADA371C63570700B0E69D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		276ADA431C63570700B0E69D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		276ADA4E1C63570700B0E69D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		276ADA2A1C63570700B0E69D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				276ADA341C63570700B0E69D /* ViewController.swift in Sources */,
+				276ADA3A1C63570700B0E69D /* TiChef.xcdatamodeld in Sources */,
+				276ADA321C63570700B0E69D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		276ADA411C63570700B0E69D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				276ADA4A1C63570700B0E69D /* TiChefTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		276ADA4C1C63570700B0E69D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				276ADA551C63570700B0E69D /* TiChefUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		276ADA471C63570700B0E69D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 276ADA2D1C63570700B0E69D /* TiChef */;
+			targetProxy = 276ADA461C63570700B0E69D /* PBXContainerItemProxy */;
+		};
+		276ADA521C63570700B0E69D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 276ADA2D1C63570700B0E69D /* TiChef */;
+			targetProxy = 276ADA511C63570700B0E69D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		276ADA351C63570700B0E69D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				276ADA361C63570700B0E69D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		276ADA3D1C63570700B0E69D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				276ADA3E1C63570700B0E69D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		276ADA571C63570700B0E69D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		276ADA581C63570700B0E69D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		276ADA5A1C63570700B0E69D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TiChef/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = KADYOQ.TiChef;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		276ADA5B1C63570700B0E69D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TiChef/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = KADYOQ.TiChef;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		276ADA5D1C63570700B0E69D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TiChefTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = KADYOQ.TiChefTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TiChef.app/TiChef";
+			};
+			name = Debug;
+		};
+		276ADA5E1C63570700B0E69D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TiChefTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = KADYOQ.TiChefTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TiChef.app/TiChef";
+			};
+			name = Release;
+		};
+		276ADA601C63570700B0E69D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TiChefUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = KADYOQ.TiChefUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TiChef;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		276ADA611C63570700B0E69D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TiChefUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = KADYOQ.TiChefUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TiChef;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		276ADA291C63570600B0E69D /* Build configuration list for PBXProject "TiChef" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				276ADA571C63570700B0E69D /* Debug */,
+				276ADA581C63570700B0E69D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		276ADA591C63570700B0E69D /* Build configuration list for PBXNativeTarget "TiChef" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				276ADA5A1C63570700B0E69D /* Debug */,
+				276ADA5B1C63570700B0E69D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		276ADA5C1C63570700B0E69D /* Build configuration list for PBXNativeTarget "TiChefTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				276ADA5D1C63570700B0E69D /* Debug */,
+				276ADA5E1C63570700B0E69D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		276ADA5F1C63570700B0E69D /* Build configuration list for PBXNativeTarget "TiChefUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				276ADA601C63570700B0E69D /* Debug */,
+				276ADA611C63570700B0E69D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		276ADA381C63570700B0E69D /* TiChef.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				276ADA391C63570700B0E69D /* TiChef.xcdatamodel */,
+			);
+			currentVersion = 276ADA391C63570700B0E69D /* TiChef.xcdatamodel */;
+			path = TiChef.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 276ADA261C63570600B0E69D /* Project object */;
+}
