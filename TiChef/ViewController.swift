@@ -10,7 +10,11 @@ import UIKit
 
 class ViewController: UIViewController {
     
+<<<<<<< HEAD
     //TEST 
+=======
+    //TEST Commit Combé !
+>>>>>>> refs/remotes/origin/master
     
 
     override func viewDidLoad() {
